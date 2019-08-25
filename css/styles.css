@@ -1,0 +1,132 @@
+body{
+  margin: 0;
+  overflow : auto;
+  background-color: #212922;
+  color: white;
+}
+body a{
+  text-decoration: underline;
+  color: #2dcc4d
+}
+body a:hover{
+  text-decoration: underline;
+  color: #0a5900;
+}
+header{
+  color: white;
+}
+header a{
+  text-decoration: none;
+}
+header a:hover.nav-link{
+  background-color: #2dcc4d;
+  color: black !important;
+}
+header a:active.nav-link{
+  background-color: #0a5900;
+  color: black !important;
+}
+#logo{
+  background: url("logo.png") no-repeat;
+  width:443px;
+  height:119px;
+}
+.navbar {
+  background-color: #212019;
+}
+div #lecture-list{
+  background-color:#212019;
+  border: 1px solid black;
+}
+/*a #lecture-list{
+  text-align: center;
+}*/
+ul{
+  list-style-type: none;
+  padding: 5px;
+}
+#content{
+  padding: 5px;
+}
+.caption{
+  padding: 10px;
+  box-sizing: border-box;
+  color:white;
+  font-size: 14pt;
+  font-family: sans-serif;
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  bottom:0px;
+  font-weight:700;
+}
+#photo{
+  width:700px;
+  height:500px;
+}
+#carouselExampleIndicators{
+  position: relative;
+  max-width:700px;
+  max-height:500px;
+}
+@media(max-width:576px){
+  .invisible-sm{
+    display:none;
+  }
+  .visible-sm{
+    display:block;
+  }
+}
+@media(min-width:577px)
+{
+  .invisible-m-l-xl{
+    display:none;
+  }
+}
+/*@media(min-width:788px)
+{
+    #sign-up{
+    width: 75%;
+  }
+}*/
+#web-dev-text:hover{
+  text-decoration: none;
+  background-color: #2dcc4d;
+  color: black !important;
+  border-radius: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+#web-dev-text:active{
+  text-decoration: none;
+  background-color: #0a5900;
+  color: black !important;
+  border-radius: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+#officer-list{
+  background-color: #212019;
+  margin-bottom: 50px;
+
+}
+#officer{
+  background-color: #212922;
+}
+.officer-name{
+  margin-bottom: 0;
+}
+.position{
+  margin-top: 0;
+  font-size: 0.7em;
+}
+#sign-up{
+  background-color: #212019;
+  padding: 2px 0px 5px 0px;
+  
+}
+form{
+  margin: 10px 10px 10px 10px;
+}
